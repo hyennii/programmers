@@ -25,3 +25,16 @@ function solution(num1, num2) {
 
 2) Math.floor()로 소수점 이하 버리기
 -----------------------------------------
+## 나머지 구하기
+<br>
+
+<img src="https://user-images.githubusercontent.com/107667966/203000109-f7c71d3c-46d1-4792-9327-c0207651725c.png" width="500">
+
+```javaScript
+function solution(num1, num2) {
+    var answer = (num1%num2);
+    return answer;
+}
+```
+1) % : 나누고 남은 나머지
+---------------------------------------
