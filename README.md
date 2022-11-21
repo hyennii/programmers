@@ -1,2 +1,0 @@
-# programmers
-coding_test
