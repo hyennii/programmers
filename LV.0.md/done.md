@@ -13,7 +13,7 @@ function solution(num1, num2) {
 : 문자열 인자를 파싱하여 특정 진수(수의 진법 체계에서 기준이 되는 값)의 정수를 반환
 <br><br>
 
-or
+또는
 
 ```javaScript
 function solution(num1, num2) {
@@ -21,8 +21,6 @@ function solution(num1, num2) {
     return Math.floor(answer);
 }
 ```
-<br>
-
 2) Math.floor()로 소수점 이하 버리기
 -----------------------------------------
 ## 나머지 구하기
@@ -38,3 +36,33 @@ function solution(num1, num2) {
 ```
 1) % : 나누고 남은 나머지
 ---------------------------------------
+## 숫자 비교하기
+<br>
+
+<img src="https://user-images.githubusercontent.com/107667966/203244085-a66fb952-acd7-4da9-a70e-be89e592a522.png" width="500">
+
+```javaScript
+function solution(num1, num2) {
+    if (num1 == num2){
+        return 1;
+    }
+    else{
+        return -1;
+    }
+}
+```
+1) if문 사용
+<br><br>
+
+또는
+
+```javaScript
+function solution(num1, num2) {
+    var answer = num1 === num2 ? 1 : -1;
+    return answer;
+}
+```
+2) 비교연산자 사용
+  - A===B : A와 B의 값과 데이터 타입이 같은가?
+  - A==B : A와 B의 값이 같은가?
+  - A!=B : A와 B의 값이 다른가?
