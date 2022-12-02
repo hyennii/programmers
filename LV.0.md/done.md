@@ -66,3 +66,16 @@ function solution(num1, num2) {
   - A===B : A와 B의 값과 데이터 타입이 같은가?
   - A==B : A와 B의 값이 같은가?
   - A!=B : A와 B의 값이 다른가?
+---------------------------------------------------------
+## 양꼬치
+<br>
+
+<img src="https://user-images.githubusercontent.com/107667966/205222694-daaf016f-37a2-46da-bb1d-86caee01443b.png" width="500">
+
+```javaScript
+function solution(n, k) {
+    return (12000*n) + (2000*k) - parseInt(n/10)*2000;
+}
+```
+1) parseInt() 를 이용해 정수값만 산출하게 하여, n이 10의 배수일 때만 계산 가능하도록 함.
+<br> (이외에 Math.floor()함수, Math.trunc()함수도 동일하게 가능)
