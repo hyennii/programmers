@@ -79,3 +79,22 @@ function solution(n, k) {
 ```
 1) parseInt() 를 이용해 정수값만 산출하게 하여, n이 10의 배수일 때만 계산 가능하도록 함.
 <br> (이외에 Math.floor()함수, Math.trunc()함수도 동일하게 가능)
+-----------------------------------------
+## 아이스 아메리카노
+<br>
+
+<img src="https://user-images.githubusercontent.com/107667966/215038619-1b120c90-53cd-4f73-bcb7-690fef48527d.png" width="500">
+
+*제한사항 : 0 < money ≤ 1,000,000
+
+```javaScript
+function solution(money) {
+    if(money <= 1000000 && money > 0){
+        let i = parseInt(money/5500)
+        let m = money-(5500*i)
+        
+        let answer = [i, m]
+        return answer;
+    }
+}
+```
