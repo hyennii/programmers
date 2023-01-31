@@ -98,3 +98,51 @@ function solution(money) {
     }
 }
 ```
+---------------------------------------------
+## 옷가게 할인받기
+<br>
+
+<img src="https://user-images.githubusercontent.com/107667966/215671160-ed2985b0-0e1d-4f8e-87f9-f0fbac37e50e.png" width="400">
+
+```javaScript
+function solution(price) {
+    
+    if(price >= 500000){
+        price *= 0.8;
+    }else if(price >= 300000){
+        price *= 0.9;
+    }else if(price >= 100000){
+        price *= 0.95;
+    }
+    return Math.floor(price);
+}
+```
+1) >= (이상) 이므로 큰것 부터
+-------------------------------------------------
+## 짝수의 합
+<br>
+
+<img src="https://user-images.githubusercontent.com/107667966/215679178-4f341d57-e477-40cc-a1be-65b6c2b28a7a.png" width="400">
+
+```javaScript
+function solution(n) {
+    let answer = 0;
+    for(i = 0;i <= n;i ++){
+        if(i % 2 === 0){
+            answer += i;
+        }
+    }
+    return answer;
+}
+```
+또는
+```javaScript
+function solution(n) {
+    let answer = 0;
+    for (let i=2; i<=n; i+=2)
+        answer += i;
+        
+    return answer;
+}
+```
+1) i값 2부터 시작, 반복문 i+=2로 하여 짝수 값만 반복 계산하도록
