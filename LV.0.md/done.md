@@ -146,3 +146,37 @@ function solution(n) {
 }
 ```
 1) i값 2부터 시작, 반복문 i+=2로 하여 짝수 값만 반복 계산하도록
+----------------------------------------------------
+## 배열의 평균값
+<br>
+
+<img src="https://user-images.githubusercontent.com/107667966/218680162-fe027daa-8fee-438c-bb96-fe8200489190.png" width="400">
+
+```javaScript
+function solution(numbers) {
+    var answer = 0;
+    let sum = 0;
+
+    for (var i=0;i<numbers.length;i++) {
+      sum += numbers[i];
+    }
+    answer = sum / numbers.length;
+    return answer;
+}
+```
+1) 배열에 담김 요소들의 합 구하고
+2) 위에서 구한 합을 배열의 길이로 나누기
+-----------------------------------------------------
+## 세균 증식
+<br>
+
+<img src="https://user-images.githubusercontent.com/107667966/218684020-bb4566e4-40c0-495a-8187-c54fb962b80f.png" width="400">
+
+```javaScript
+function solution(n, t) {
+    answer = n * 2 ** t
+    return answer;
+}
+```
+1)  ** : 거듭제곱
+
