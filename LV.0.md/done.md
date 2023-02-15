@@ -179,4 +179,20 @@ function solution(n, t) {
 }
 ```
 1)  ** : 거듭제곱
+--------------------------------------------------------
+## 머쓱이보다 키 큰 사람
+<br>
 
+<img src="https://user-images.githubusercontent.com/107667966/218895637-67e5b5c7-0b93-4d34-884b-df3926ff0532.png" width="400">
+
+```javaScript
+function solution(array, height) {
+    let answer = 0;
+    for(let i = 0; i < array.length; i++){
+        if(array[i] > height){
+            answer ++
+        }
+    }
+    return answer;
+}
+```
