@@ -211,3 +211,31 @@ function solution(strlist) {
     return answer;
 }
 ```
+------------------------------------------------------------
+## 피자 나눠 먹기(3)
+<br>
+
+<img src="https://user-images.githubusercontent.com/107667966/218927674-9849af62-5132-49b0-a96c-fd58d89fac92.png" width="400">
+
+```javaScript
+function solution(slice, n) {
+    let answer = Math.ceil(n/slice);
+    return answer;
+}
+```
+1) Math.ceil(); : 올림
+-------------------------------------------------------------
+## 피자 나눠 먹기(1)
+<br>
+
+<img src="https://user-images.githubusercontent.com/107667966/218934703-7b29b7e9-fe3b-42ff-bc4a-47dc396648d4.png" width="400">
+
+```javaScript
+function solution(n) {
+    let i = 1;
+    for(i = 1; i*7/n<1; i++){
+
+    }
+    return i;
+}
+```
