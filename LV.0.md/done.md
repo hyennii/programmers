@@ -196,3 +196,18 @@ function solution(array, height) {
     return answer;
 }
 ```
+-----------------------------------------------------------
+## 배열 원소의 길이
+<br>
+
+<img src="https://user-images.githubusercontent.com/107667966/218910978-bb0baf07-5352-49c7-b8a5-c6033750e78d.png" width="400">
+
+```javaScript
+function solution(strlist) {
+    let answer = [];
+    for(i = 0; i < strlist.length; i ++){
+        answer[i]=strlist[i].length;
+    }
+    return answer;
+}
+```
