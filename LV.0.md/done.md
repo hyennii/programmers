@@ -267,3 +267,20 @@ function solution(num_list) {
     return num_list.reverse();
 }
 ```
+-------------------------------------------------------------
+## 배열 두 배 만들기
+<br>
+
+<img src="https://user-images.githubusercontent.com/107667966/222906772-b8c2992e-9f40-4277-9816-71ed79359045.png" width="400">
+                                                                                                                            
+```javaScript
+   function solution(numbers) {
+    let answer = []
+    for(i = 0; i < numbers.length; i++){
+        answer.push(numbers[i]*2);
+    }
+    return answer;
+}                                                                                                                         
+```
+1. push : 배열의 끝에 하나 이상의 요소를 추가하고, 배열의 새로운 길이를 반환한다. 
+  - 원본 배열을 바꾼다.                                                                                                                            
