@@ -256,3 +256,14 @@ function solution(my_string) {
    - ex. join() : //n,o,r,a,j
    - join('') : //noraj
    - join(-) : //n-o-r-a-j
+-------------------------------------------------------------
+## 배열 뒤집기
+<br>
+
+<img src="https://user-images.githubusercontent.com/107667966/222905902-02c21fb5-053a-4133-8ef5-6295ba68d282.png" width="400">
+
+```javaScript
+function solution(num_list) {
+    return num_list.reverse();
+}
+```
