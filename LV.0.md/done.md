@@ -239,3 +239,20 @@ function solution(n) {
     return i;
 }
 ```
+-------------------------------------------------------------
+## 문자열 뒤집기
+<br>
+
+<img src="https://user-images.githubusercontent.com/107667966/222904516-1a967d28-8aa4-429c-9c90-0f3ca8265a95.png" width="400">
+
+```javaScript
+function solution(my_string) {
+    return Array.from(my_string).reverse().join('');
+}
+```
+1. Array.from 함수 : 유사 배열 객체나 반복 가능한 객체를 얕게 복사해 새로운 Array 객체를 만든다
+2. join() : 배열의 모든 요소를 연결해 하나의 문자열로 만든다
+   - 필요한 경우 문자열로 변환되고, 생략하면 배열의 원소들의 쉼표로 구분
+   - ex. join() : //n,o,r,a,j
+   - join('') : //noraj
+   - join(-) : //n-o-r-a-j
