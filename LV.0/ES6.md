@@ -12,3 +12,14 @@ let solution = (myString) => {
 1) 화살표함수 사용
 2) let 사용
 3) 대문자로 변환하기 위해 toUpperCase 함수 사용 (소문자 변환은 toLowerCase)
+
+-------------------------------------------
+
+## 편지
+
+<br>
+<img src="https://github.com/hyennii/TIL/assets/107667966/07994ce6-338d-451d-9279-79b2c47b97a3" width="500">
+
+```javaScript
+const solution = (message) => message.length*2;
+```
