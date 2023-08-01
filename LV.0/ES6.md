@@ -23,3 +23,16 @@ let solution = (myString) => {
 ```javaScript
 const solution = (message) => message.length*2;
 ```
+
+-------------------------------------------
+
+## 문자열을 정수로 변환하기
+
+<br>
+<img src="https://github.com/hyennii/TIL/assets/107667966/bb2cff44-8ecd-49e7-a5a3-a6f5ffe5652f" width="500">
+
+```javaScript
+const solution=(n_str)=>{
+    return parseInt(n_str);
+}
+```
